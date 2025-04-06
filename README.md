@@ -1,6 +1,6 @@
 # ProtFam - Protein Family Classifier
 
-A full-stack web application for classifying proteins into their respective families based on physicochemical properties. The application uses machine learning to predict protein families and provides both single-protein analysis and bulk classification capabilities.
+A full-stack web application for predicting proteins near into their respective families based on physicochemical properties. The application uses machine learning to predict protein families and provides both single-protein analysis and bulk classification capabilities.
 
 ## Features
 
@@ -55,20 +55,20 @@ The frontend will be available at `http://localhost:8501`.
 ## Input Parameters
 
 ### Basic Properties
-- Nneg: Number of Negative Charges
-- Npos: Number of Positive Charges
+- Nneg: Number of Negative Charged Residues
+- Npos: Number of Positive Charged Residues
 - Exc1: Excitation Coefficient 1
 - Exc2: Excitation Coefficient 2
 - I.Index: Instability Index
 - A.Index: Aliphatic Index
 
 ### Advanced Properties
-- GRAVY: GRAVY Score
+- GRAVY: Grand Average of Hydropathicity
 - Ser: Serine Count
 - Thr: Threonine Count
 - Tyr: Tyrosine Count
-- ExpAA: Expected AA
-- PredHel: Predicted Helices
+- ExpAA: Expected AAs in Sequence
+- PredHel: Predicted Transmembrane Helices
 
 ### Tools used to get above params
 - Nneg, Npos, Exc1, Exc2, I_Index, A_Index, GRAVY, Ser, Thr, Tyr - Expasy ProtParam
