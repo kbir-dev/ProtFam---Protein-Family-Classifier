@@ -98,4 +98,22 @@ The application uses a Random Forest Classifier trained on protein physicochemic
 - **Machine Learning**: scikit-learn
 - **Data Processing**: Pandas
 - **Visualization**: Plotly
+
+## Application Outputs
+
+The application generates several visualization outputs to help understand the classification results:
+
+### Individual Analysis
+- **Frontend Interface**: Interactive interface for single protein analysis
+- **Classification Results**: Visual representation of prediction probabilities
+- **Feature Importance**: SHAP-based visualization showing the importance of each feature
+
+### Bulk Analysis
+- **Upload and Preview**: Interface for uploading and previewing CSV files
+- **Predictions and Download**: Results visualization with CSV download option
+
+### Model Interpretability
+- **SHAP Implementation**: Detailed SHAP analysis showing feature contributions to predictions
+
+All outputs are saved in the `outputs` directory for reference and analysis.
  
