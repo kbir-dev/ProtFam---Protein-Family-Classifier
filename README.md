@@ -105,15 +105,24 @@ The application generates several visualization outputs to help understand the c
 
 ### Individual Analysis
 - **Frontend Interface**: Interactive interface for single protein analysis
+![Individual Analysis Frontend](outputs/Individual%20Analysis%20-%20Frontend.png)
+
 - **Classification Results**: Visual representation of prediction probabilities
+![Individual Analysis Classification](outputs/Individual%20Analysis%20-%20Classification.png)
+
 - **Feature Importance**: SHAP-based visualization showing the importance of each feature
+![Individual Analysis Feature Importance](outputs/Individual%20Analysis%20-%20Feature%20Importance.png)
 
 ### Bulk Analysis
 - **Upload and Preview**: Interface for uploading and previewing CSV files
+![Bulk Analysis Upload and Preview](outputs/Bulk%20Analysis%20-%20Upload%20and%20Preview.png)
+
 - **Predictions and Download**: Results visualization with CSV download option
+![Bulk Analysis Predictions and Download](outputs/Bulk%20Analysis%20-%20Predictiona%20and%20CSV%20Download.png)
 
 ### Model Interpretability
 - **SHAP Implementation**: Detailed SHAP analysis showing feature contributions to predictions
+![SHAP Implementation](outputs/Shap%20Implementation%20in%20Protein%20Family%20Classifer%20Model.png)
 
 All outputs are saved in the `outputs` directory for reference and analysis.
  
