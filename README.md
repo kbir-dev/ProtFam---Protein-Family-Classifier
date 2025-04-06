@@ -1,6 +1,6 @@
 # ProtFam - Protein Family Classifier
 
-A full-stack web application for classifying proteins into their respective families based on physicochemical properties. The application uses machine learning to predict protein families and provides both single-protein analysis and bulk classification capabilities.
+A full-stack web application for predicting proteins near into their respective families based on physicochemical properties. The application uses machine learning to predict protein families and provides both single-protein analysis and bulk classification capabilities.
 
 ## Features
 
